@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, Response
+from connections import *
 import json
-app = Flask(__name__)
+
 
 laptops = [
     { 'name': 'Inspiron',
